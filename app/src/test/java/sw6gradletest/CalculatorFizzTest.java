@@ -19,3 +19,4 @@ public class CalculatorFizzTest {
         Assertions.assertThat(fizzBuzz.multiply(2, 2)).isEqualTo("4");
         Assertions.assertThat(fizzBuzz.multiply(4, 2)).isEqualTo("8");
     }
+}
