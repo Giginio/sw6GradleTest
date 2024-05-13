@@ -30,7 +30,7 @@ public class CalculatorFizzTest {
     @Test
     public void testMultiplyNumbers() {
         CalculatorFizz fizzBuzz = new CalculatorFizz();
-        Assertions.assertThat(fizzBuzz.multiply(1, 2)).isEqualTo("Fizz");
+        Assertions.assertThat(fizzBuzz.multiply(1, 2)).isEqualTo("2");
         Assertions.assertThat(fizzBuzz.multiply(2, 2)).isEqualTo("4");
         Assertions.assertThat(fizzBuzz.multiply(4, 2)).isEqualTo("8");
     }
